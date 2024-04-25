@@ -6,7 +6,7 @@ main {
   text-align: center;
   box-sizing: border-box;
   overflow: hidden;
-  background: url("/assets/images/background.svg") top no-repeat;
+  background: url("../images/background.svg") top no-repeat;
   background-size: contain;
 }
 figure:not(footer :is(figure)) {
