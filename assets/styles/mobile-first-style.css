@@ -1,0 +1,45 @@
+main {
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 500px;
+  min-width: 300px;
+  text-align: center;
+  box-sizing: border-box;
+  overflow: hidden;
+  background: url("assets/images/background.svg") top no-repeat;
+  background-size: contain;
+}
+figure:not(footer :is(figure)) {
+  width: 100%;
+  text-align: center;
+}
+
+header :is(img) {
+  width: 14.7rem;
+  height: 100%;
+  margin-top: 15%;
+}
+header :is(figcaption) {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+article p {
+  text-align: center;
+  margin-top: 5%;
+  padding: 1rem 2rem;
+}
+article :is(img) {
+  margin-top: 0.8rem;
+  width: 40%;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+footer :is(img) {
+  width: 2.5rem;
+  display: inline-block;
+}
