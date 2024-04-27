@@ -1,45 +1,90 @@
-main {
-  margin: 0 auto;
+#container {
   width: 100vw;
-  max-width: 500px;
+  max-width: 1000px;
   min-width: 300px;
-  text-align: center;
   box-sizing: border-box;
-  overflow: hidden;
-  background: url("../images/background.svg") top no-repeat;
+}
+#faixa {
+  display: none;
+}
+#espaco-suporte {
+  display: none;
+}
+main {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  background: url("../images/background.svg");
+  background-position: top;
+  background-repeat: no-repeat;
   background-size: contain;
 }
-figure:not(footer :is(figure)) {
-  width: 100%;
-  text-align: center;
-}
-
-header :is(img) {
-  width: 14.7rem;
-  height: 100%;
-  margin-top: 15%;
-}
-header :is(figcaption) {
-  text-align: center;
-  padding-top: 1rem;
-  font-size: 1.5rem;
-}
-article p {
-  text-align: center;
-  margin-top: 5%;
-  padding: 1rem 2rem;
-}
-article :is(img) {
-  margin-top: 0.8rem;
-  width: 40%;
-}
-footer {
+#section-picture {
   display: flex;
   justify-content: center;
-  padding: 1rem;
-  gap: 1rem;
+  padding-top: 12%;
 }
-footer :is(img) {
-  width: 2.5rem;
+#section-picture > figure {
+  width: 60%;
+  filter: drop-shadow(10px 5px 10px #23163d);
+}
+#section-picture :is(img) {
+  width: 100%;
+  clip-path: polygon(
+    50.4% 0%,
+    51.2% 0%,
+    91.6% 25.5%,
+    90.6% 75.5%,
+    50.1% 100%,
+    49.4% 100%,
+    7.9% 75.5%,
+    7.9% 25%
+  );
+}
+#section-nome {
+  text-align: center;
+  padding-top: 2%;
+}
+#section-nome > p {
   display: inline-block;
+  color: #e1e1e1;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+#section-descricao {
+  padding: 5%;
+}
+#section-descricao > p {
+  display: inline-block;
+  color: #e1e1e1;
+  font-size: 1rem;
+  text-align: center;
+}
+#section-QRcode {
+  display: flex;
+  justify-content: center;
+}
+#section-QRcode > figure {
+  width: 40%;
+}
+#section-QRcode :is(img) {
+  width: 100%;
+  border-radius: 5px;
+  filter: drop-shadow(5px 5px 20px #474444);
+}
+footer {
+  padding: 5%;
+}
+#container-icones-footer {
+  display: flex;
+  gap: 5%;
+
+  justify-content: center;
+}
+#container-icones-footer figure {
+  width: 13.7%;
+}
+#container-icones-footer :is(img) {
+  width: 100%;
+  filter: drop-shadow(5px 5px 20px #4e126e);
 }

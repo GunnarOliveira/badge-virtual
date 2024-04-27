@@ -1,0 +1,84 @@
+@media screen and (min-width: 700px) {
+  body {
+    background: url("../images/body-background.svg") no-repeat;
+    background-position: top;
+    background-color: #121214;
+  }
+  #container {
+    margin: 0 auto;
+    max-width: 300px;
+    width: 27vw;
+    height: 625px;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #faixa {
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 72px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: url("../images/faixa.svg"), no-repeat;
+    background-size: cover;
+    background-color: #fff;
+    align-self: center;
+    z-index: 100;
+    top: 0;
+  }
+  main {
+    background: url("../images/background-main.svg"), no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+  }
+  #espaco-suporte {
+    display: flex;
+    justify-content: center;
+  }
+  #suporte {
+    width: 90px;
+    height: 10px;
+    background-color: black;
+    border-radius: 8px;
+  }
+
+  #section-picture {
+    padding-top: 5%;
+  }
+  #section-picture figure {
+    width: 50%;
+  }
+  #section-nome {
+    padding: 2%;
+  }
+  #section-nome p {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+  #section-descricao {
+    padding: 0px 4% 2% 4%;
+  }
+  #section-descricao p {
+    font-size: 0.8rem;
+  }
+  #section-QRcode {
+    padding: 5%;
+  }
+  #section-QRcode > figure {
+    width: 35%;
+  }
+  footer {
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(0.25turn, #52057b, #892cdc, #8a4eb3);
+    border-image-slice: 1;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 4%;
+  }
+  #container-icones-footer figure {
+    width: 10.7%;
+  }
+}

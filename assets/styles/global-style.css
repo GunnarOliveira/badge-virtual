@@ -3,9 +3,18 @@
   padding: 0;
 }
 body {
-  background-color: black;
-  color: #e1e1e6;
-  text-align: center;
+  background-color: #121214;
   font-family: "Poppins", Helvetica, sans-serif;
-  box-sizing: border-box;
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translatey(0);
+  }
+  40% {
+    transform: translatey(5px);
+  }
+}
+.efeito-flutuante-infinito {
+  animation: float 2s ease-in-out infinite;
 }
