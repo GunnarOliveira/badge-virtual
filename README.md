@@ -24,8 +24,10 @@ Bem-vindos ao meu badge virtual! 🤗 Eu sou Gunnar Vingren, desenvolvedor web e
 - **Otimização do Código**: Com o tempo, vou melhorar a modularidade e reutilização do código para facilitar a manutenção.
 
 ## Foto do Layout 📸
-![Layout do Projeto](assets/images/mobile-demo.jpg)
-![Layout do Projeto](assets/images/desktop-demo.png)
+<img src="assets/images/mobile-demo.jpg" alt="Layout do Projeto Mobile" style="width: 300px;">
+<br>
+<img src="assets/images/desktop-demo.png" alt="Layout do Projeto Desktop" style="width: 400px;">
+
 - [🌐 Acesse o Deploy do Projeto](https://gunnaroliveira.github.io/badge-virtual/)
 ## Conclusão 🎉
 Espero que você goste do meu badge virtual! Explore e entre em contato comigo pelos links das redes sociais ou pelo QR code. Estou sempre aberto a feedback e sugestões para aprimorar o projeto. Obrigado pela visita! 🙌
