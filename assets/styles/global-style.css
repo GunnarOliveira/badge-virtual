@@ -18,3 +18,20 @@ body {
 .efeito-flutuante-infinito {
   animation: float 2s ease-in-out infinite;
 }
+figure {
+  transition: transform 0.3s ease-in-out; /* Aplica a mesma transição para entrada e saída */
+}
+
+figure:hover {
+  transform: scale(1.2); /* Aumenta a escala ao passar o mouse */
+}
+
+::selection {
+  background-color: #4e126e; /* cor de fundo para a seleção */
+  color: #fff; /* cor do texto quando selecionado */
+}
+
+::-moz-selection {
+  background-color: #4e126e; /* cor de fundo para a seleção no Firefox */
+  color: #fff; /* cor do texto quando selecionado no Firefox */
+}
